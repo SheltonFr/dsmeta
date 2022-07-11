@@ -1,0 +1,101 @@
+.dsmeta-card {
+    background-color: #283142;
+    border-radius: 10px;
+    padding: 30px 10px;
+}
+
+.demeta-sales-title {
+    color: #676FFF;
+    font-size: 24px;
+    margin-bottom: 20.48px;
+
+}
+
+.dsmeta-form-control {
+    height: 46px;
+    width: 100%;
+    padding: 0 20px;
+    background-color: #1B2531;
+    border: 1px solid #384459;
+    color: #9AAABE;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.demeta-form-control-container {
+    margin-bottom: 16px;
+    max-width: 300px;
+}
+
+.dsmeta-sales-table {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.dsmeta-sales-table thead {
+    height: 55px;
+    font-size: 16px;
+    color: #E9E9E9;
+    font-weight: 700;
+
+}
+
+.dsmeta-sales-table tbody {
+    font-size: 14px;
+    font-weight: 400;
+    color: #CFCFCFCF;
+    text-align: center;
+}
+
+.dsmeta-sales-table tr {
+    height: 74px;
+
+    border-top: 1px solid #5F6E82;
+}
+
+.dsmeta-sales-table tbody tr:hover>td {
+    background-color: #384459;
+}
+
+.dsmeta-sales-table tbody tr:nth-child(odd) {
+    /*linhas impares da tabela*/
+    background-color: #242C3B;
+}
+
+.dsmeta-red-btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.show576, .show900 {
+    display: none;
+}
+
+@media (min-width: 576px) {
+    .show576 {
+        display: table-cell;
+    }
+
+    .dsmeta-card {
+        padding: 35px;
+    }
+
+    .dsmeta-sales-table tr {
+        height: 62px;
+    }
+
+    .dsmeta-sales-table tbody {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 900px) {
+    .show900 {
+        display: table-cell;
+    }
+
+
+
+}
