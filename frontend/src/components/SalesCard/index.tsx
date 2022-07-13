@@ -19,7 +19,7 @@ function SalesCard() {
             <div>
 
                 <div className="demeta-form-control-container">
-                    <DatePicker
+                       <DatePicker
                         selected={minDate}
                         onChange={(date: Date) => setMinDate(date)}
                         className="dsmeta-form-control"
